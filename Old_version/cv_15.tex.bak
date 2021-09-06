@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+% \includegraphics[width=0.6\columnwidth]{photo.png}\\[\baselineskip] % Your photo
+\includegraphics[width=0.7\columnwidth]{PhotoLinkedinshort.jpg}
+\small % Smaller font size
+Nikolay Prieto \\ % Your name
+\scriptsize{\url{enprietop@unal.edu.co}} \\ % Your email address
+\href{https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001469266}{CVlac}  \\
+\href{https://github.com/nikorose87}{GitHub}  \\
+
+% \url{www.johnsmith.com} \\ % Your URL
++57 (300) 350 1177 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+Calle 12 # 3-05 \\ % Address 1
+La Calera, Cundinamarca \\ % Address 2
+Colombia \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Nikolay Prieto} % Large heading - your name
+
+\cvsubheading{Mechatronics Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{Ph.D. candidate with strong knowledge in design optimization and data science. I have got work experience in project management, researcher, and, as a professor. I have excellent skills in programming (python), Machine Learning, data science, IoT, robotics, computer vision, maths, statistics, project management and physical computer modeling, good skills in personal relationships, leadership, responding flexibly and positively to changing situations, continuous learning autonomy, persistent and oriented to objectives. Nowadays, while I am finishing my Ph.D., I am looking for a job in the tech industry and/or research.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+\CVItem{2014 - current, Universidad Nacional de Colombia}{\textbf{Doctorate in Engineering.}} \\
+%------------------------------------------------
+\CVItem{2011 - 2014, Universidad Militar Nueva Granada}{\textbf{Master in Engineering.}} \\
+%----------------------------------------------
+\CVItem{2004 - 2009, Universidad de San Buenaventura}{\textbf{BS in Mechatronics Engineering.}} \\
+%------------------------------------------------
+
+\CVSection{Experience}
+%------------------------------------------------
+\CVItem{June 2019 - present, \textit{Associate Professor}, U. San Buenaventura University}{Professor of undergraduate and graduate program in the mechatronics department. Lectures and projects are focused on Machine Learning, Data Science, Mechanical Design and Computer vision.}
+
+\CVItem{February 2019 - June 2019, \textit{Associate Professor}, ECCI University}{Professor of undergraduate students in the mechanics department. In charge of teaching the CAD and mechanical representation techniques.}
+%------------------------------------------------------------
+
+\CVItem{June 2018 - Dec 2018, \textit{Research Assistant}, Indiana University Purdue University-Indianapolis (IUPUI)}{We performed topology optimization algorithms on the design of biomedical device. We developed an algorithm to reproduce an emulated gait environment to test ankle-foot prosthesis.}
+
+\CVItem{October 2018 - March 2019, \textit{Mechanical Engineer Item Writer}, A pass Education \--- Remote}{I was responsible for developing multiple-choice assessment items based on provided concepts in mechanical engineering.}
+
+\CVItem{Feb. 2009 - Sep. 2014, \textit{Research and Development projects coordinator}, Military Industry of Colombia (INDUMIL)}{Administrative and technical management of projects focused on research and technological development in the defense field.
+The duties involved were: Management, monitoring, researching, technological assessment, industrial property, engineering design and prototypes manufacturing, among other activities of projects related to mobile TV operated robotics, prosthetics for lower and upper limbs, command and control systems, military vehicles, etc.}
+
+% ----------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Communication Skills}
+
+%------------------------------------------------
+
+\CVItem{2013, \textit{Oral Presentation}, ESSS-CAE Industry Aerospace and
+Defense congress}{\textbf{Talk title:} Determination of internal pressure, velocity and recoil in water
+jet cannons with AutoDYN.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Software Development Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Python &  \bluebullet Matlab & \bluebullet Shell\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Computer Software}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Windows &  \bluebullet Linux & \bluebullet LS-DYNA\\
+ \bluebullet ANSYS &  \bluebullet Inventor & \bluebullet AutoCAD\\
+ \bluebullet ALTIUM Designer & \\
+\end{tabular}}
+
+%-----------------------------------
+
+\CVItem{Open Source and frameworks}
+
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet ROS & \bluebullet Gazebo & \bluebullet Keras \\
+\bluebullet Jupyter & \bluebullet Scikit-Learn & \bluebullet Bokeh \\
+\bluebullet OpenCV & \bluebullet Pandas & \bluebullet Seaborn \\
+\bluebullet MongoDB & \bluebullet Matplotlib & \bluebullet Scipy \\
+\bluebullet \LaTeX &  \bluebullet Opensim & \bluebullet Octave\\
+\bluebullet Gmsh & \bluebullet G-code\\
+
+\end{tabular}}
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%------------------------------------------------------------------
+
+\CVSection{Awards}
+
+%------------------------------------------------
+
+\CVItem{2015, \textit{Postgraduate Scholarship}, Universidad Nacional de Colombia}{Best GPA in the PhD programme.}
+
+\CVItem{2014, \textit{Postgraduate Scholarship}, COLCIENCIAS}{Grantee for all the PhD academic programme.}
+
+\CVItem{2011, \textit{Postgraduate Scholarship}, Military Industry of Colombia}{ Masters Scholarship.}
+
+
+%------------------------------------------------------------
+\Sep % Extra whitespace after the end of a major section
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\CVSection{Languages.}
+\begin{itemize}
+    \item Spanish (Mother Tongue)
+    \item English (B2 level TOEFL certified)
+\end{itemize}
+
+\Sep
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{Education, Research, Programming, Biomechanics, FEA, Computer Science, 3D printing.}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Volleyball, Cyclist, cooking, travelling, running.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
