@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.14)  30 JUN 2021 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.2)  13 FEB 2022 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,6 +1036,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 377--378
  []
 
 
+Underfull \hbox (badness 10000) in alignment at lines 379--379
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
 
  []
@@ -1456,76 +1466,86 @@ Overfull \hbox (4.84172pt too wide) in alignment at lines 494--494
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 514--514
+Overfull \hbox (13.44533pt too wide) in alignment at lines 506--506
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 514--514
-[]\T1/Raleway-TLF/m/n/10 Associate pro-fes-sor of un-der-grad-u-ate and grad-u-
-ate pro-gram in the
- []
-
-
-Overfull \hbox (4.96175pt too wide) in alignment at lines 514--514
+Overfull \hbox (4.96175pt too wide) in alignment at lines 506--506
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+
+ []
+
+
+Overfull \hbox (4.84172pt too wide) in alignment at lines 506--506
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
-t line 514.
+t line 506.
 (/usr/share/texlive/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 514.
+(Font)              scaled to size 10.0pt on input line 506.
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 514--514
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 514--514
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--514
-
- []
-
-
-Overfull \hbox (13.44533pt too wide) in alignment at lines 537--537
+Overfull \hbox (13.44533pt too wide) in alignment at lines 526--526
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 537--537
+Underfull \hbox (badness 1383) in paragraph at lines 526--526
+[]\T1/Raleway-TLF/m/n/10 Associate pro-fes-sor of un-der-grad-u-ate and grad-u-
+ate pro-gram in the
+ []
+
+
+Overfull \hbox (4.96175pt too wide) in alignment at lines 526--526
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
+
+ []
+
+
+Overfull \hbox (4.84172pt too wide) in alignment at lines 526--526
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
+
+ []
+
+
+Overfull \hbox (4.84172pt too wide) in alignment at lines 526--526
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 
  []
 
@@ -1533,129 +1553,149 @@ Underfull \hbox (badness 10000) in paragraph at lines 537--537
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./profile_photo_reduced.jp
 g> <./PortfolioENPP.png>]
-Overfull \hbox (4.84172pt too wide) in alignment at lines 537--537
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 537--537
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-
- []
-
-
-Overfull \hbox (13.44533pt too wide) in alignment at lines 557--557
+Overfull \hbox (13.44533pt too wide) in alignment at lines 549--549
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 557--557
+Overfull \hbox (4.96175pt too wide) in alignment at lines 549--549
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 557--557
+Overfull \hbox (4.84172pt too wide) in alignment at lines 549--549
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 557--557
+Overfull \hbox (4.84172pt too wide) in alignment at lines 549--549
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 581--581
+Overfull \hbox (13.44533pt too wide) in alignment at lines 569--569
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 581--581
+Overfull \hbox (4.96175pt too wide) in alignment at lines 569--569
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
 
  []
 
 
-Overfull \hbox (11.77267pt too wide) in paragraph at lines 581--581
+Overfull \hbox (4.84172pt too wide) in alignment at lines 569--569
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+
+ []
+
+
+Overfull \hbox (4.84172pt too wide) in alignment at lines 569--569
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+
+ []
+
+
+Overfull \hbox (13.44533pt too wide) in alignment at lines 593--593
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+
+ []
+
+
+Overfull \hbox (4.96175pt too wide) in alignment at lines 593--593
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+
+ []
+
+[2]
+Overfull \hbox (11.77267pt too wide) in paragraph at lines 593--593
 []\T1/Raleway-TLF/m/n/10 Technological as-sess-ment,industrial prop-erty, en-gi
 -neer-ing de-sign and man-
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 581--581
+Overfull \hbox (4.84172pt too wide) in alignment at lines 593--593
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 
  []
 
-[2]
-Overfull \hbox (4.84172pt too wide) in alignment at lines 581--581
+
+Overfull \hbox (4.84172pt too wide) in alignment at lines 593--593
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
  ) 
 Here is how much of TeX's memory you used:
- 22066 strings out of 483007
- 434887 string characters out of 5961757
- 739349 words of memory out of 5000000
- 36652 multiletter control sequences out of 15000+600000
+ 22066 strings out of 481239
+ 434887 string characters out of 5920377
+ 743944 words of memory out of 5000000
+ 36881 multiletter control sequences out of 15000+600000
  615576 words of font info for 40 fonts, out of 8000000 for 9000
- 107 hyphenation exceptions out of 8191
- 60i,12n,69p,507b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 60i,13n,69p,562b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc}{/usr/sha
 re/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/sh
 are/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/sha
@@ -1663,7 +1703,7 @@ re/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on main.pdf (3 pages, 271416 bytes).
+Output written on main.pdf (3 pages, 272209 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
