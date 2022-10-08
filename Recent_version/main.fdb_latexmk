@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1665268968 "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.tex" "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.pdf" "main" 1665269041
+["pdflatex"] 1665270321 "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.tex" "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.pdf" "main" 1665270324
   "/etc/texmf/web2c/texmf.cnf" 1633190307 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.aux" 1665269039 701 9314e433659bd19aeb761e77db918edc ""
-  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.tex" 1665269041 21415 71ed22e2fff6a5b2668c69987b387710 ""
+  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.aux" 1665270323 701 9314e433659bd19aeb761e77db918edc ""
+  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.tex" 1665270324 21549 44df8fe5d161a8e7e38039a1813d853e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc" 1407086865 3304 b327a193b74530cc7913fed1ac883860 ""
@@ -180,14 +180,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1633193419 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1633193435 8256185 6a77300511bbdfc5e8952428b6b9dea4 ""
-  "main.aux" 1665269039 701 9314e433659bd19aeb761e77db918edc "pdflatex"
-  "main.out" 1665269039 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1665269041 21415 71ed22e2fff6a5b2668c69987b387710 ""
+  "main.aux" 1665270323 701 9314e433659bd19aeb761e77db918edc "pdflatex"
+  "main.out" 1665270323 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1665270324 21549 44df8fe5d161a8e7e38039a1813d853e ""
   "profile_photo_reduced.jpg" 1633402257 207192 e4e62c4f2345fe624a340613fb15cf5c ""
   (generated)
-  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.pdf"
-  "main.out"
-  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.log"
   "main.log"
-  "main.pdf"
   "main.aux"
+  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.log"
+  "main.out"
+  "/home/nikorose/Documents/Repos/Data_Science_CV/Recent_version/main.pdf"
+  "main.pdf"
