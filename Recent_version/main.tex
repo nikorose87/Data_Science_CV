@@ -268,40 +268,20 @@
 % param 5: work done (optional)
 % param 6: technologies include (optional)
 % param 7: achievements (optional)
-\newcommand{\cvevent}[7] {
-	
-	% we wrap this part in a parbox, so title and description are not separated on a pagebreak
-	% if you need more control on page breaks, remove the parbox
+\newcommand{\cvevent}[4] {
 	\parbox{\mpwidth}{
 		\begin{tabular*}{1\mpwidth}{p{0.72\mpwidth}  r}
-	 		\textcolor{black}{\textbf{#2}} & \colorbox{maincol}{\makebox[0.25\mpwidth]{\textcolor{white}{#1}}} \\
+			\textcolor{black}{\textbf{#2}} & \colorbox{maincol}{\makebox[0.25\mpwidth]{\textcolor{white}{#1}}} \\
 			\textcolor{maincol}{\textbf{#3}} & \\
 		\end{tabular*}\\[8pt]
-	
-		\ifthenelse{\isempty{#4}}{}{
-			\cvtext{#4}\\
-		}
 	}
 
-	\ifthenelse{\isempty{#5}}{}{
+	\ifthenelse{\isempty{#4}}{}{
 		\vspace{9pt}
-		{#5}
-	}
-
-	\ifthenelse{\isempty{#6}}{}{
-		\vspace{9pt}
-		\cvtext{\textbf{Technologies include:}}\\
-		{#6}
-	}
-
-	\ifthenelse{\isempty{#7}}{}{
-		\vspace{9pt}
-		\cvtext{\textbf{Achievements include:}}\\
-		{#7}
+		{#4}
 	}
 	\vspace{14pt}
 }
-
 %----------------------------------------------------------------------------------------
 %	 CV META EVENT
 %----------------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  5 NOV 2023 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  6 NOV 2023 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1074,28 +1074,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--383
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 [][]\T1/Raleway-TLF/b/n/17.28 PERSONALITY
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 393--393
+Overfull \hbox (8.784pt too wide) in alignment at lines 392--392
 [] 
  []
 
 
 Overfull \hbox (11.74104pt too wide) in alignment at lines 394--394
 [][] 
- []
-
-
-Overfull \hbox (155.56546pt too wide) in paragraph at lines 393--394
-[][]    [] 
  []
 
 
@@ -1216,8 +1211,8 @@ Overfull \hbox (8.784pt too wide) in alignment at lines 416--416
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 416--416
-[] 
+Underfull \hbox (badness 1472) in paragraph at lines 416--416
+[]\T1/Raleway-TLF/b/n/10 M.Sc. in Mecha-tron-ics En-gi-
  []
 
 
@@ -1227,27 +1222,27 @@ Overfull \hbox (8.784pt too wide) in alignment at lines 416--416
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 416--416
-
+[][]\T1/Raleway-TLF/m/n/10 Universidad Mil-i-tar Nueva
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 416--416
-[]\T1/Raleway-TLF/m/n/10 Design and con-struc-tion of a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 416--416
-\T1/Raleway-TLF/m/n/10 catheter holder for med-i-cal
+Overfull \hbox (8.784pt too wide) in alignment at lines 416--416
+[] 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 416--416
-\T1/Raleway-TLF/m/n/10 ap-pli-ca-tions through ad-di-tive
+
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 416--416
+\T1/Raleway-TLF/m/n/10 the-sis for Colom-bian run-ners
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 416--416
-\T1/Raleway-TLF/m/n/10 man-u-fac-tur-ing and in-jec-tion
+\T1/Raleway-TLF/m/n/10 with op-ti-mal com-bi-na-tion of
  []
 
 
@@ -1266,18 +1261,8 @@ Overfull \hbox (8.784pt too wide) in alignment at lines 422--422
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 422--422
-[]\T1/Raleway-TLF/b/n/10 M.Sc. in Mecha-tron-ics En-gi-
- []
-
-
 Overfull \hbox (8.784pt too wide) in alignment at lines 422--422
 [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
-[][]\T1/Raleway-TLF/m/n/10 Universidad Mil-i-tar Nueva
  []
 
 
@@ -1288,16 +1273,6 @@ Overfull \hbox (8.784pt too wide) in alignment at lines 422--422
 
 Underfull \hbox (badness 10000) in paragraph at lines 422--422
 
- []
-
-
-Underfull \hbox (badness 3713) in paragraph at lines 422--422
-\T1/Raleway-TLF/m/n/10 the-sis for Colom-bian run-ners
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
-\T1/Raleway-TLF/m/n/10 with op-ti-mal com-bi-na-tion of
  []
 
 
@@ -1311,21 +1286,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--423
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 428--428
-[] 
- []
-
-
-Overfull \hbox (8.784pt too wide) in alignment at lines 428--428
-[] 
- []
-
-
-Overfull \hbox (8.784pt too wide) in alignment at lines 428--428
-[] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 428--428
 
  []
@@ -1336,216 +1296,201 @@ Overfull \hbox (8.784pt too wide) in alignment at lines 428--428
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
-
- []
-
-
-Overfull \hbox (8.784pt too wide) in alignment at lines 434--434
+Overfull \hbox (8.784pt too wide) in alignment at lines 430--430
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 436--436
+Overfull \hbox (8.784pt too wide) in alignment at lines 430--430
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 436--436
+Overfull \hbox (8.784pt too wide) in alignment at lines 430--430
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 436--436
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 436--436
+Underfull \hbox (badness 2088) in paragraph at lines 430--430
 []\T1/Raleway-TLF/m/n/10 A pro-gram that spreads best
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 436--436
+Overfull \hbox (8.784pt too wide) in alignment at lines 430--430
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 437--437
+Overfull \hbox (8.784pt too wide) in alignment at lines 431--431
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 437--437
+Overfull \hbox (8.784pt too wide) in alignment at lines 431--431
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 437--437
+Overfull \hbox (8.784pt too wide) in alignment at lines 431--431
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
 
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 437--437
+Underfull \hbox (badness 6910) in paragraph at lines 431--431
 []\T1/Raleway-TLF/m/n/10 A foun-da-tional pro-gram that
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 437--437
+Overfull \hbox (8.784pt too wide) in alignment at lines 431--431
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 438--438
+Overfull \hbox (8.784pt too wide) in alignment at lines 432--432
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 438--438
+Overfull \hbox (8.784pt too wide) in alignment at lines 432--432
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 438--438
+Overfull \hbox (8.784pt too wide) in alignment at lines 432--432
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 438--438
+Overfull \hbox (8.784pt too wide) in alignment at lines 432--432
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 439--439
+Overfull \hbox (8.784pt too wide) in alignment at lines 433--433
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 439--439
+Overfull \hbox (8.784pt too wide) in alignment at lines 433--433
 [] 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 439--439
+Overfull \hbox (8.784pt too wide) in alignment at lines 433--433
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--439
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 
  []
 
 
-Overfull \hbox (8.784pt too wide) in alignment at lines 439--439
+Overfull \hbox (8.784pt too wide) in alignment at lines 433--433
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 29.86pt on input line 457.
+(Font)              scaled to size 29.86pt on input line 451.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 29.86pt on input line 457.
+(Font)              scaled to size 29.86pt on input line 451.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 457.
+(Font)              scaled to size 12.0pt on input line 451.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 457--459
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 451--453
 [][] [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--464
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 464--464
+Overfull \hbox (4.84172pt too wide) in alignment at lines 458--458
 [] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
-t line 481.
+t line 475.
 (/usr/share/texlive/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 481.
+(Font)              scaled to size 10.0pt on input line 475.
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 481--481
+Overfull \hbox (4.84172pt too wide) in alignment at lines 475--475
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 487--487
+Overfull \hbox (4.84172pt too wide) in alignment at lines 485--485
 [] 
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 505--505
+Overfull \hbox (13.44533pt too wide) in alignment at lines 499--499
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 505--505
+Overfull \hbox (4.96175pt too wide) in alignment at lines 499--499
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 505--505
+Overfull \hbox (13.44533pt too wide) in alignment at lines 513--513
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
+
+ []
+
+
+Overfull \hbox (4.96175pt too wide) in alignment at lines 513--513
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 505--505
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
 
  []
 
@@ -1553,185 +1498,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 505--505
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/profile_photo2.j
 pg>]
-Overfull \hbox (13.44533pt too wide) in alignment at lines 524--524
+Overfull \hbox (13.44533pt too wide) in alignment at lines 525--525
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 524--524
+Overfull \hbox (4.96175pt too wide) in alignment at lines 525--525
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 524--524
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 524--524
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
-
- []
-
-
-Overfull \hbox (13.44533pt too wide) in alignment at lines 538--538
+Overfull \hbox (13.44533pt too wide) in alignment at lines 540--540
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 538--538
+Overfull \hbox (4.96175pt too wide) in alignment at lines 540--540
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 538--538
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 538--538
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-
- []
-
-
-Overfull \hbox (13.44533pt too wide) in alignment at lines 558--558
+Overfull \hbox (13.44533pt too wide) in alignment at lines 552--552
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 558--558
-[]\T1/Raleway-TLF/m/n/10 Associate pro-fes-sor of un-der-grad-u-ate and grad-u-
-ate pro-gram in the
- []
-
-
-Overfull \hbox (4.96175pt too wide) in alignment at lines 558--558
+Overfull \hbox (4.96175pt too wide) in alignment at lines 552--552
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
-
- []
-
-[2]
-Overfull \hbox (4.84172pt too wide) in alignment at lines 558--558
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
 
  []
 
 
-Overfull \hbox (4.84172pt too wide) in alignment at lines 558--558
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
-
- []
-
-
-Overfull \hbox (13.44533pt too wide) in alignment at lines 582--582
+Overfull \hbox (13.44533pt too wide) in alignment at lines 567--567
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 582--582
+Overfull \hbox (4.96175pt too wide) in alignment at lines 567--567
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
 
  []
 
-
-Overfull \hbox (11.77267pt too wide) in paragraph at lines 582--582
-[]\T1/Raleway-TLF/m/n/10 Technological as-sess-ment,industrial prop-erty, en-gi
--neer-ing de-sign and man-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 582--582
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
-
- []
-
-
-Overfull \hbox (4.84172pt too wide) in alignment at lines 582--582
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
-
- []
-
-[3] (./ML_Role.aux)
+[2] [3] (./ML_Role.aux)
 Package rerunfilecheck Info: File `ML_Role.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  25511 strings out of 478287
  498903 string characters out of 5849289
- 841844 words of memory out of 5000000
+ 845369 words of memory out of 5000000
  43252 multiletter control sequences out of 15000+600000
  567002 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1744,7 +1597,7 @@ texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on ML_Role.pdf (3 pages, 130858 bytes).
+Output written on ML_Role.pdf (3 pages, 129440 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
