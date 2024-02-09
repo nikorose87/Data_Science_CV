@@ -1,0 +1,560 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2019 Jan Küster
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+
+%============================================================================%
+%
+%	DOCUMENT DEFINITION
+%
+%============================================================================%
+
+%we use article class because we want to fully customize the page and don't use a cv template
+\documentclass[10pt,A4]{article}	
+
+
+%----------------------------------------------------------------------------------------
+%	ENCODING
+%----------------------------------------------------------------------------------------
+
+% we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}		
+
+%----------------------------------------------------------------------------------------
+%	LOGIC
+%----------------------------------------------------------------------------------------
+
+% provides \isempty test
+\usepackage{xstring, xifthen}
+
+%----------------------------------------------------------------------------------------
+%	FONT BASICS
+%----------------------------------------------------------------------------------------
+
+% some tex-live fonts - choose your own
+
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto} 
+
+% set font default
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+% more font size definitions
+\usepackage{moresize}
+
+%----------------------------------------------------------------------------------------
+%	FONT AWESOME ICONS
+%---------------------------------------------------------------------------------------- 
+
+% include the fontawesome icon set
+\usepackage{fontawesome}
+
+% use to vertically center content
+% credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
+\newcommand{\vcenteredinclude}[1]{\begingroup
+\setbox0=\hbox{\includegraphics{#1}}%
+\parbox{\wd0}{\box0}\endgroup}
+
+% use to vertically center content
+% credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
+\newcommand*{\vcenteredhbox}[1]{\begingroup
+\setbox0=\hbox{#1}\parbox{\wd0}{\box0}\endgroup}
+
+% icon shortcut
+\newcommand{\icon}[3] { 							
+	\makebox(#2, #2){\textcolor{maincol}{\csname fa#1\endcsname}}
+}	
+
+% icon with text shortcut
+\newcommand{\icontext}[4]{ 						
+	\vcenteredhbox{\icon{#1}{#2}{#3}}  \hspace{2pt}  \parbox{0.9\mpwidth}{\textcolor{#4}{#3}}
+}
+
+% icon with website url
+\newcommand{\iconhref}[5]{ 						
+    \vcenteredhbox{\icon{#1}{#2}{#5}}  \hspace{2pt} \href{#4}{\textcolor{#5}{#3}}
+}
+
+% icon with email link
+\newcommand{\iconemail}[5]{ 						
+    \vcenteredhbox{\icon{#1}{#2}{#5}}  \hspace{2pt} \href{mailto:#4}{\textcolor{#5}{#3}}
+}
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT  DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+% page outer frames (debug-only)
+% \usepackage{showframe}		
+
+% we use paracol to display breakable two columns
+\usepackage{paracol}
+
+% define page styles using geometry
+\usepackage[a4paper]{geometry}
+
+% remove all possible margins
+\geometry{top=1cm, bottom=1cm, left=1cm, right=1cm}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+
+% space between header and content
+% \setlength{\headheight}{0pt}
+
+% indentation is zero
+\setlength{\parindent}{0mm}
+
+%----------------------------------------------------------------------------------------
+%	TABLE /ARRAY DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+% extended aligning of tabular cells
+\usepackage{array}
+
+% custom column right-align with fixed width
+% use like p{size} but via x{size}
+\newcolumntype{x}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+
+%----------------------------------------------------------------------------------------
+%	GRAPHICS DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for header image
+\usepackage{graphicx}
+
+% use this for floating figures
+% \usepackage{wrapfig}
+% \usepackage{float}
+% \floatstyle{boxed} 
+% \restylefloat{figure}
+
+%for drawing graphics		
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds,mindmap, trees}
+
+%----------------------------------------------------------------------------------------
+%	Color DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+\usepackage{transparent}
+\usepackage{color}
+
+% primary color
+\definecolor{maincol}{RGB}{ 225, 0, 0 }
+
+% accent color, secondary
+% \definecolor{accentcol}{RGB}{ 250, 150, 10 }
+
+% dark color
+\definecolor{darkcol}{RGB}{ 70, 70, 70 }
+
+% light color
+\definecolor{lightcol}{RGB}{245,245,245}
+
+
+% Package for links, must be the last package used
+\usepackage[hidelinks]{hyperref}
+
+% returns minipage width minus two times \fboxsep
+% to keep padding included in width calculations
+% can also be used for other boxes / environments
+\newcommand{\mpwidth}{\linewidth-\fboxsep-\fboxsep}
+	
+
+
+%============================================================================%
+%
+%	CV COMMANDS
+%
+%============================================================================%
+
+%----------------------------------------------------------------------------------------
+%	 CV LIST
+%----------------------------------------------------------------------------------------
+
+% renders a standard latex list but abstracts away the environment definition (begin/end)
+\newcommand{\cvlist}[1] {
+	\begin{itemize}{#1}\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV TEXT
+%----------------------------------------------------------------------------------------
+
+% base class to wrap any text based stuff here. Renders like a paragraph.
+% Allows complex commands to be passed, too.
+% param 1: *any
+\newcommand{\cvtext}[1] {
+	\begin{tabular*}{1\mpwidth}{p{0.98\mpwidth}}
+		\parbox{1\mpwidth}{#1}
+	\end{tabular*}
+}
+
+%----------------------------------------------------------------------------------------
+%	CV SECTION
+%----------------------------------------------------------------------------------------
+
+% Renders a a CV section headline with a nice underline in main color.
+% param 1: section title
+\newcommand{\cvsection}[1] {
+	\vspace{14pt}
+	\cvtext{
+		\textbf{\LARGE{\textcolor{darkcol}{\uppercase{#1}}}}\\[-4pt]
+		\textcolor{maincol}{ \rule{0.1\textwidth}{2pt} } \\
+	}
+}
+
+%----------------------------------------------------------------------------------------
+%	META SKILL
+%----------------------------------------------------------------------------------------
+
+% Renders a progress-bar to indicate a certain skill in percent.
+% param 1: name of the skill / tech / etc.
+% param 2: level (for example in years)
+% param 3: percent, values range from 0 to 1
+\newcommand{\cvskill}[3] {
+	\begin{tabular*}{1\mpwidth}{p{0.65\mpwidth}  r}
+ 		\textcolor{black}{\textbf{#1}} & \textcolor{maincol}{#2}\\
+	\end{tabular*}%
+	
+	\hspace{4pt}
+	\begin{tikzpicture}[scale=1,rounded corners=2pt,very thin]
+		\fill [lightcol] (0,0) rectangle (1\mpwidth, 0.15);
+		\fill [maincol] (0,0) rectangle (#3\mpwidth, 0.15);
+  	\end{tikzpicture}%
+}
+
+
+%----------------------------------------------------------------------------------------
+%	 CV EVENT
+%----------------------------------------------------------------------------------------
+
+% Renders a table and a paragraph (cvtext) wrapped in a parbox (to ensure minimum content
+% is glued together when a pagebreak appears).
+% Additional Information can be passed in text or list form (or other environments).
+% the work you did
+% param 1: time-frame i.e. Sep 14 - Jan 15 etc.
+% param 2:	 event name (job position etc.)
+% param 3: Customer, Employer, Industry
+% param 4: Short description
+% param 5: work done (optional)
+% param 6: technologies include (optional)
+% param 7: achievements (optional)
+\newcommand{\cvevent}[7] {
+	
+	% we wrap this part in a parbox, so title and description are not separated on a pagebreak
+	% if you need more control on page breaks, remove the parbox
+	\parbox{\mpwidth}{
+		\begin{tabular*}{1\mpwidth}{p{0.72\mpwidth}  r}
+	 		\textcolor{black}{\textbf{#2}} & \colorbox{maincol}{\makebox[0.25\mpwidth]{\textcolor{white}{#1}}} \\
+			\textcolor{maincol}{\textbf{#3}} & \\
+		\end{tabular*}\\[8pt]
+	
+		\ifthenelse{\isempty{#4}}{}{
+			\cvtext{#4}\\
+		}
+	}
+
+	\ifthenelse{\isempty{#5}}{}{
+		\vspace{9pt}
+		{#5}
+	}
+
+	\ifthenelse{\isempty{#6}}{}{
+		\vspace{9pt}
+		\cvtext{\textbf{Technologies include:}}\\
+		{#6}
+	}
+
+	\ifthenelse{\isempty{#7}}{}{
+		\vspace{9pt}
+		\cvtext{\textbf{Achievements include:}}\\
+		{#7}
+	}
+	\vspace{14pt}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV META EVENT
+%----------------------------------------------------------------------------------------
+
+% Renders a CV event on the sidebar
+% param 1: title
+% param 2: subtitle (optional)
+% param 3: customer, employer, etc,. (optional)
+% param 4: info text (optional)
+\newcommand{\cvmetaevent}[4] {
+	\textcolor{maincol} {\cvtext{\textbf{\begin{flushleft}#1\end{flushleft}}}}
+
+	\ifthenelse{\isempty{#2}}{}{
+	\textcolor{darkcol} {\cvtext{\textbf{#2}} }
+	}
+
+	\ifthenelse{\isempty{#3}}{}{
+		\cvtext{{ \textcolor{darkcol} {#3} }}\\
+	}
+
+	\cvtext{#4}\\[14pt]
+}
+
+%---------------------------------------------------------------------------------------
+%	QR CODE
+%----------------------------------------------------------------------------------------
+
+% Renders a qrcode image (centered, relative to the parentwidth)
+% param 1: percent width, from 0 to 1
+%\newcommand{\cvqrcode}[1] {
+%	\begin{center}
+%		\includegraphics[width={#1}\mpwidth]{PortfolioENPP}
+%	\end{center}
+%}
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT CONTENT
+%
+%
+%
+%============================================================================%
+\begin{document}
+\columnratio{0.31}
+\setlength{\columnsep}{2.2em}
+\setlength{\columnseprule}{4pt}
+\colseprulecolor{lightcol}
+\begin{paracol}{2}
+\begin{leftcolumn}
+%---------------------------------------------------------------------------------------
+%	META IMAGE
+%----------------------------------------------------------------------------------------
+\includegraphics[width=\linewidth]{../figures/profile_photo2.jpg}	%trimming relative to image size
+
+%---------------------------------------------------------------------------------------
+%	META SKILLS
+%----------------------------------------------------------------------------------------
+\cvsection{PRINCIPALES HABILIDADES}
+
+\cvskill{Python}{8+ yrs}{1} \\[-2pt]
+\cvskill{ML}{4+ yrs}{0.7} \\[-2pt]
+\cvskill{Linux}{5+ yrs}{0.7} \\[-2pt]
+\cvskill{Atlassian Suite}{3+ yrs}{0.5} \\[-2pt]
+\cvskill{Git}{4+ yrs}{0.5} \\[-2pt]
+\cvskill{AWS}{2+ yrs}{0.4} \\[-2pt]
+\cvskill{Docker}{1+ yr}{0.2} \\[-2pt]
+\cvskill{JavaScript}{0.5+ yr}{0.1} \\[-2pt]
+
+\cvsection{CONTACTO}
+	
+\icontext{MapMarker}{12}{Calle 12 3 05, 251201\\La Calera, Colombia}{black}\\[6pt]
+\icontext{Github}{12}{nikorose87}{black}\\[6pt]
+\icontext{MobilePhone}{12}{+57 300 3501177}{black}\\[6pt]
+\icontext{Twitter}{12}{nikorose}{black}\\[6pt]
+\iconemail{Envelope}{12}{enprietop@gmail.com}{enprietop@gmail.com}{black}\\[6pt]
+
+
+\vfill\null
+%\cvqrcode{0.7}
+
+%---------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsection{Rasgos de personalidad}
+
+\cvskill{Reservado}{Energético}{0.8} \\[-2pt]
+\cvskill{Cauteloso}{Curioso}{0.8} \\[-2pt]
+\cvskill{Espontáneo}{Organizado}{0.85} \\[-2pt]
+\cvskill{Competitivo}{Amigable}{0.75} \\[-2pt]
+\cvskill{Ávido}{Modesto}{0.9} \\[-2pt]
+\cvskill{Confiado}{Nervioso}{0.65} \\[-2pt]
+
+\newpage
+
+\cvsection{EDUCACIÓN}
+
+\cvmetaevent
+{2014 - 2021}
+{Doctorado en Ingeniería Mecatrónica.}
+{Universidad Nacional de Colombia}
+{Investigador doctoral enfocado en el análisis de la dinámica del tobillo --- a través de la extracción de grandes cantidades de datos --- y diseño de prótesis tobillo-pie utilizando métodos avanzados de diseño como modelos sustitutos y simulaciones transitorias de materiales sólidos.
+\textit{Premios:} Mejor Promedio Académico 2015-I durante estudios doctorales; beca completa de MINCIENCIAS para estudios de doctorado.}
+
+\cvmetaevent
+{2011 - 2014}
+{Maestría en Ingeniería Mecatrónica}
+{Universidad Militar Nueva Granada}
+{Desarrollé una prótesis tobillo-pie para corredores colombianos con una combinación óptima de laminados de fibra de carbono.}
+
+\cvmetaevent
+{2004 - 2009}
+{Ingeniería en Mecatrónica.}
+{Universidad de San Buenaventura}
+{}
+
+\cvsection{CERTIFICADOS}
+
+\cvmetaevent{MLOps}{Coursera}{2/4 cursos}{Programa que difunde las mejores prácticas en operaciones de aprendizaje automático industrial.}
+\cvmetaevent{Aprendizaje Profundo}{Neuromatch Academy}{Completado}{Programa fundamental que ayuda a comprender las capacidades, desafíos y consecuencias del aprendizaje profundo.}
+\cvmetaevent{Algoritmos y Estructuras de Datos}{Educative}{Completado}{Técnicas algorítmicas para resolver diversos problemas computacionales.}
+\cvmetaevent{AWS Certified ML - Specialty 2020}{A Cloud Guru}{Completado}{Habilidades para comprender el entorno completo de AWS para realizar proyectos de aprendizaje automático.}
+
+\vfill
+%\cvqrcode{0.7}
+
+
+\end{leftcolumn}
+\begin{rightcolumn}
+%---------------------------------------------------------------------------------------
+%	TITLE  HEADER
+%----------------------------------------------------------------------------------------
+\fcolorbox{white}{darkcol}{\begin{minipage}[c][3.5cm][c]{1\mpwidth}
+	\begin {center}
+		\HUGE{ \textbf{ \textcolor{white}{ \uppercase{ Nikolay Prieto} } } } \\[-24pt]
+		\textcolor{white}{ \rule{0.1\textwidth}{1.25pt} } \\[4pt]
+		\large{ \textcolor{white} {Desarrollador Backend e IA} }
+	\end {center}
+\end{minipage}} \\[14pt]
+\vspace{-12pt}
+
+%---------------------------------------------------------------------------------------
+%	PROFILE
+%----------------------------------------------------------------------------------------
+\vfill\null
+\cvsection{PERFIL}
+
+\cvtext{
+Ingeniero de IA especializado en el diseño e implementación de arquitecturas serverless en AWS para aplicaciones de inteligencia artificial. Experto en desarrollar sistemas escalables y eficientes para implementar modelos de aprendizaje automático en entornos de nube. Hábil en el desarrollo de backend, computación en la nube e integración de aprendizaje automático.
+
+\cvlist{
+\item Arquitectura Serverless Function-as-a-Service (FaaS)
+\item Computación en la Nube de AWS
+\item Desarrollo de Backend para Aplicaciones de IA
+\item Implementación de Modelos de Aprendizaje Automático
+\item Diseño de Sistemas Escalables y Eficientes
+\item Preprocesamiento de Datos e Ingeniería de Características
+\item Programación en Python
+\item Análisis y Visualización de Datos
+}
+
+Experiencia en la construcción de sistemas backend sólidos que integran de manera fluida funcionalidades de aprendizaje automático. Habilidades en la optimización de infraestructuras serverless enfocadas la implementación de IA. Apasionado por aprovechar las tecnologías en la nube para crear soluciones innovadoras y escalables. Comprometido a estar al tanto de los últimos avances, tanto en desarrollo de backend como en inteligencia artificial.
+
+Buscando oportunidades para aplicar mi experiencia en el diseño e implementación de soluciones de IA serverless en entornos dinámicos y vanguardistas.
+}
+
+%---------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsection{EXPERIENCIA LABORAL}
+
+\cvevent
+{Nov 2021 - Feb 2024}
+{\href{https://mvnifest.com/mvnifestai}{Mvnifest} | Las Vegas, CV, USA (Remoto)}
+{Ingeniero de IA Backend}
+{Mvnifest es una empresa de logística de terceros (3PL) que pretende facilitar la gestión en este campo.}
+{\cvlist{
+\item Diseñé y desarrollé una herramienta de pronóstico de ventas y planificación como Ingeniero de IA desde el Backend.
+\item Establecí el diseño del modelo de aprendizaje automático y la infraestructura de MLOps, optimizando la arquitectura serverless en AWS.
+\item Implementé una API serverless para el consumo de aprendizaje automático, utilizando tecnologías de AWS: S3, EC2, AWS Lambda, Neo4j, SageMaker y API Gateway.
+\item Especializado en el desarrollo de sistemas distribuidos en la nube para una empresa de logística de terceros.
+\item Utilicé Python para el desarrollo de herramientas personalizadas y Neo4J (NoSQL) como el marco principal de la base de datos.
+\item Apliqué varios servicios de AWS, incluyendo Appsync, S3, EC2, Lambda, SES, SQS, SNS, SAM y API Gateway.
+}}
+{}
+{}
+
+\cvevent
+{Mar 2022 - Oct 2023}
+{\href{https://quantic.edu/}{Quantic Holdings, Inc} | Washington DV, US (Remoto)}
+{Asesor Experto: Aprendizaje Automático}
+{Trabajo a tiempo parcial asesorando y revisando contenido de aprendizaje automático para el equipo de ingeniería de software.}
+{\cvlist{
+\item Trabajé con Scikit-learn, TensorFlow, Pytorch y Colab para el diseño de contenido educativo hacia el aprendizaje en esta temática.
+\item Corrección de contenido desde el punto de vista técnico. 
+}}
+{}
+{}
+
+\cvevent
+{Jul 2019 - Dic 2021}
+{Universidad de San Buenaventura}
+{Robótica Computacional e IA}
+{Profesor asociado de los programas de pregrado y posgrado en el departamento de mecatrónica. Centrado en el desarrollo de máquinas (robots) con algoritmos de integración de visión por computadora y aprendizaje automático.}
+{\cvlist{
+\item Realicé investigaciones sobre el control no lineal de la rigidez dinámica de la articulación del tobillo, predicho mediante el algoritmo XGBoost.
+\item Desarrollé un robot móvil autónomo para servicios de alimentos.
+\item Creé una impresora 3D con integración de IoT.
+\item Trabajó en sistemas de navegación inercial visual para vehículos autónomos aéreos y terrestres.
+\item Utilicé Python para el desarrollo de herramientas personalizadas y diversas tecnologías, incluyendo Pandas, Scikit-learn, OpenCV, ROS, Gazebo, Jupyter, Google Colab, Keras, TensorFlow, Pytorch, CAD y Ansys.
+}}
+{}
+{}
+
+\cvevent
+{Jun 2018 - Dic 2018}
+{Universidad de Indiana Purdue en Indianápolis}
+{Asistente de Investigación}
+{Diseñé y construí un soporte de catéter para aplicaciones médicas mediante procesos de fabricación aditiva e inyección de plástico.}
+{\cvlist{
+\item Simulación, prototipado y aplicación de dispositivos médicos.
+\item Utilización de LS-DYNA, Python, Ansys, Matlab y Shell.
+}}
+{}
+{}
+
+\cvevent
+{Feb 09 - Sep 14}
+{Industria Militar de Colombia}
+{Gerente de Proyectos de Investigación y Desarrollo}
+{Gestión administrativa y técnica de proyectos centrados en la investigación y desarrollo tecnológico en el campo de la defensa. Las responsabilidades incluyeron:}
+{\cvlist{
+\item Gestión de cinco (5) grandes proyectos de investigación (\$8000 Millones de ejecución) en robótica móvil, vehículos militares, Sistemas Integrados de Comando y Control, entre otros.
+\item Supervisión de la transferencia del know-how generado a las diferentes dependencias relacionadas.
+\item Evaluación tecnológica, propiedad industrial, diseño de ingeniería y fabricación de prototipos.
+\item Utilización de Microsoft Project, Office 365, Inventor, Solidworks, Altium Designer y Matlab.
+}}
+{}
+{}
+
+% hotfixes to create fake-space to ensure the whole height is used
+\mbox{}
+\vfill
+
+\end{rightcolumn}
+\end{paracol}
+\end{document}
+
