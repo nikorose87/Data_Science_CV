@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.17)  9 FEB 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.17)  15 FEB 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1468,28 +1468,30 @@ Overfull \hbox (4.84172pt too wide) in alignment at lines 487--487
 [] 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 504.
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 503--503
+Overfull \hbox (13.44533pt too wide) in alignment at lines 504--504
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 503--503
+Overfull \hbox (4.96175pt too wide) in alignment at lines 504--504
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--503
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 
  []
 
 
-Overfull \hbox (4.99173pt too wide) in paragraph at lines 503--503
+Overfull \hbox (4.99173pt too wide) in paragraph at lines 504--504
 []\T1/Raleway-TLF/m/n/10 Established ML model de-sign and MLOps in-fras-truc-tu
 re, op-ti-miz-ing server-
  []
@@ -1498,82 +1500,88 @@ re, op-ti-miz-ing server-
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figu
 res/profile_photo2.jpg>]
-Overfull \hbox (13.44533pt too wide) in alignment at lines 515--515
+Overfull \hbox (13.44533pt too wide) in alignment at lines 516--516
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 515--515
+Overfull \hbox (4.96175pt too wide) in alignment at lines 516--516
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
 
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 530--530
+Overfull \hbox (13.44533pt too wide) in alignment at lines 531--531
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--530
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 530--530
+Overfull \hbox (4.96175pt too wide) in alignment at lines 531--531
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--530
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 542--542
+Overfull \hbox (3.8626pt too wide) in paragraph at lines 531--531
+\T1/Raleway-TLF/m/n/10 in-clud-ing Pan-das, Scikit-learn, OpenCV, Jupyter, Goog
+le Co-lab, Keras, Ten-
+ []
+
+
+Overfull \hbox (13.44533pt too wide) in alignment at lines 543--543
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 542--542
+Overfull \hbox (4.96175pt too wide) in alignment at lines 543--543
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 557--557
+Overfull \hbox (13.44533pt too wide) in alignment at lines 558--558
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 557--557
+Overfull \hbox (4.96175pt too wide) in alignment at lines 558--558
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 
  []
 
@@ -1582,11 +1590,11 @@ Package rerunfilecheck Info: File `ML_Role.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24739 strings out of 478994
- 474457 string characters out of 5858184
- 828743 words of memory out of 5000000
- 41769 multiletter control sequences out of 15000+600000
- 501173 words of font info for 45 fonts, out of 8000000 for 9000
+ 24741 strings out of 478994
+ 474505 string characters out of 5858184
+ 828892 words of memory out of 5000000
+ 41770 multiletter control sequences out of 15000+600000
+ 514785 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,12n,89p,439b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/us
@@ -1598,10 +1606,10 @@ pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/impallari/raleway/Raleway-B
 old.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/impallari/raleway/Ralew
 ay-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/impallari/raleway
 /Raleway-Regular.pfb>
-Output written on ML_Role.pdf (3 pages, 124444 bytes).
+Output written on ML_Role.pdf (3 pages, 124438 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
