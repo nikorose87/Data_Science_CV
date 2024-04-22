@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  13 MAR 2024 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  20 APR 2024 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1463,6 +1463,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 503--503
  []
 
 
+Overfull \hbox (14.38171pt too wide) in paragraph at lines 503--503
+[]\T1/Raleway-TLF/m/n/10 Providing a range of mi-croser-vices for lo-gis-tics u
+s-ing both REST and GraphQL
+ []
+
+
 Overfull \hbox (4.99173pt too wide) in paragraph at lines 503--503
 []\T1/Raleway-TLF/m/n/10 Established ML model de-sign and MLOps in-fras-truc-tu
 re, op-ti-miz-ing server-
@@ -1518,42 +1524,42 @@ le Co-lab, Keras, Ten-
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 542--542
+Overfull \hbox (13.44533pt too wide) in alignment at lines 543--543
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 542--542
+Overfull \hbox (4.96175pt too wide) in alignment at lines 543--543
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 
  []
 
 
-Overfull \hbox (13.44533pt too wide) in alignment at lines 557--557
+Overfull \hbox (13.44533pt too wide) in alignment at lines 558--558
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 
  []
 
 
-Overfull \hbox (4.96175pt too wide) in alignment at lines 557--557
+Overfull \hbox (4.96175pt too wide) in alignment at lines 558--558
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 
  []
 
@@ -1564,7 +1570,7 @@ Package rerunfilecheck Info: File `ML_Role.out' has not changed.
 Here is how much of TeX's memory you used:
  25513 strings out of 478287
  498972 string characters out of 5849289
- 848129 words of memory out of 5000000
+ 849087 words of memory out of 5000000
  43253 multiletter control sequences out of 15000+600000
  580614 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1577,7 +1583,7 @@ texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on ML_Role.pdf (3 pages, 129376 bytes).
+Output written on ML_Role.pdf (3 pages, 130014 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
